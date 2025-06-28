@@ -1,12 +1,35 @@
-# React + Vite
+# 🎲 Tenzies Game - React Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive game built with React where the objective is to roll until all dice show the same number. You can "hold" dice to keep their value during subsequent rolls. This version includes a **countdown timer**, **game timer**, **win detection**, and **confetti animation** when you win!
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎮 10 dice that can be held or rolled
+- ⏱️ Timer tracking how long you take to win
+- ⏳ 3-second countdown before the game starts
+- 🥳 Confetti animation on winning
+- ♿ Accessible with ARIA labels and live region
+- 📱 Responsive design
 
-## Expanding the ESLint configuration
+## ✨ Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+https://tenzyyyys-game.netlify.app/
+
+---
+
+## 🧠 How to Play
+
+1. Click **Start Game** to begin a 3-second countdown.
+2. Click **Roll** to roll all unheld dice.
+3. Click a die to **hold** its value.
+4. Keep rolling until **all dice are held and show the same number**.
+5. Celebrate your win with confetti 🎉 and your completion time!
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React (with hooks)
+- 🧪 nanoid (for unique dice IDs)
+- 🎉 react-confetti (for celebration effect)
+- 💡 ARIA support for accessibility
