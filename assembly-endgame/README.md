@@ -31,19 +31,6 @@ In this game, you must guess the hidden word in less than 8 wrong attempts. For 
 
 ---
 
-## 📁 Folder Structure
-
-src/
-│
-├── components/ # Reusable UI components (Keyboard, Status, Header, etc.)
-├── hooks/ # Custom hook for game logic (useGameLogic)
-├── data/ # Language data and word list
-├── utils.js # Utility functions like random word selection
-├── App.jsx # Main component that stitches everything together
-├── App.css # Stylesheet
-└── main.jsx # Entry point
-
-
 ## 🧩 Credits
 
 Created with ❤️ by Mahi 
