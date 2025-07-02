@@ -13,7 +13,7 @@ A fun and interactive game built with React where the objective is to roll until
 
 ## ✨ Live Demo
 
-https://tenzyyyys-game.netlify.app/
+[Play here](https://tenzyyyys-game.netlify.app/)
 
 ---
 
